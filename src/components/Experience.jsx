@@ -17,18 +17,18 @@ const Experience = () => {
       description: "Currently working on a Car Rental App for renting cars, taking on the role of tech lead. Managing the development process and implementing key features.",
       skills: ["React", "Node.js", "MongoDB", "Team Leadership"]
     },
+    // {
+    //   company: "MP Lokseva Kendra",
+    //   position: "Computer Assistant",
+    //   period: "2021 - 2023",
+    //   description: "Assisted with technical operations and computer-related services, providing support for various digital initiatives.",
+    //   skills: ["Technical Support", "Customer Service", "Office Software"]
+    // },
     {
-      company: "MP Lokseva Kendra",
-      position: "Computer Assistant",
-      period: "2021 - 2023",
-      description: "Assisted with technical operations and computer-related services, providing support for various digital initiatives.",
-      skills: ["Technical Support", "Customer Service", "Office Software"]
-    },
-    {
-      company: "Freelance Projects",
-      position: "Web Developer",
-      period: "2019 - 2021",
-      description: "Worked on various web development projects as a freelancer, creating websites and applications for clients.",
+      company: "Eskills Web",
+      position: "Web Developer-intern",
+      period: "oct,2024– Present)",
+      description: "Collaborated with designers and clients to implement visually appealing and functional front-end solutions.",
       skills: ["HTML/CSS", "JavaScript", "Responsive Design"]
     }
   ];
@@ -37,13 +37,13 @@ const Experience = () => {
     {
       institution: "Devi Ahilya Vishwavidyalaya Indore (M.P)",
       degree: "Master of Arts (Economics)",
-      period: "2018 - 2020",
+      period: "2021 - 2023",
       description: "Completed Master's degree with focus on economic theory and analysis."
     },
     {
       institution: "Devi Ahilya Vishwavidyalaya Indore (M.P)",
       degree: "Bachelor of Arts",
-      period: "2015 - 2018",
+      period: "2019 - 2021",
       description: "Undergraduate studies with foundation in social sciences and humanities."
     }
   ];

@@ -84,8 +84,8 @@ const Contact = () => {
     
     try {
       // In development, use localhost. In production, use relative URL
-      const baseUrl = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:5000';
-      const response = await axios.post(`${baseUrl}/api/contact`, formData);
+      // const baseUrl = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:5000';
+      const response = await axios.post(`http://localhost:5000/api/contact`, formData);
       
       if (response.data.success) {
         setStatus({

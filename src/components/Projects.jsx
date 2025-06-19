@@ -47,7 +47,7 @@ const Projects = () => {
       description: "Ongoing project for renting cars where I'm working as tech lead. Features user authentication, car browsing, and booking management.",
       image: "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       technologies: ["React", "Node.js", "Express", "MongoDB", "JWT Auth"],
-      category: "fullstack",
+      category: "frontend",
       githubLink: "https://github.com/Yogeshdhakad0",
       liveLink: ""
     }

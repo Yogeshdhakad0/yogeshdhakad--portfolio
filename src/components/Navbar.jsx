@@ -51,7 +51,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               transition={{ duration: 0.5 }}
             >
               <span className="text-xl font-bold text-primary-600 dark:text-primary-400 font-display">
-                Yogesh<span className="text-secondary-500">Dev</span>
+                Yogesh<span className="text-secondary-500">Dhakad</span>
               </span>
             </motion.div>
           </a>

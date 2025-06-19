@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, ChevronDown } from 'lucide-react';
-
+import { Github, Linkedin, ChevronDown, Link } from 'lucide-react';
+import imges from '../imges/WhatsApp Image 2025-06-19 at 2.33.20 PM.jpeg'
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center relative bg-gradient-to-br from-white to-blue-50 dark:from-gray-900 dark:to-gray-800">
@@ -44,17 +44,17 @@ const Hero = () => {
               </div>
               
               <div className="flex items-center space-x-4 pt-4">
-                <a 
+                <a
                   href="https://github.com/Yogeshdhakad0"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  className="text-gray-700 text-none dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   aria-label="GitHub"
                 >
                   <Github size={24} />
                 </a>
-                <a 
-                  href="https://www.linkedin.com/in/yogesh-dhakad/"
+                <a
+                  href="www.linkedin.com/in/yogesh-dhakad"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -76,18 +76,18 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full opacity-20 animate-pulse"></div>
               <div className="absolute inset-4 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+                  src={imges}
                   alt="Yogesh Dhakad" 
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover rounded-full bg-cover"
                 />
               </div>
               
-              <div className="absolute -bottom-2 -right-2 bg-secondary-500 text-white p-3 rounded-full shadow-lg">
+              {/* <div className="absolute -bottom-2 -right-2 bg-secondary-500 text-white p-3 rounded-full shadow-lg">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                 </svg>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
