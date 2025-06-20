@@ -10,13 +10,13 @@ const Experience = () => {
   });
 
   const experiences = [
-    {
-      company: "Car Rental App",
-      position: "Tech Lead",
-      period: "Current Project",
-      description: "Currently working on a Car Rental App for renting cars, taking on the role of tech lead. Managing the development process and implementing key features.",
-      skills: ["React", "Node.js", "MongoDB", "Team Leadership"]
-    },
+    // {
+    //   company: "Car Rental App",
+    //   position: "Tech Lead",
+    //   period: "Current Project",
+    //   description: "Currently working on a Car Rental App for renting cars, taking on the role of tech lead. Managing the development process and implementing key features.",
+    //   skills: ["React", "Node.js", "MongoDB", "Team Leadership"]
+    // },
     // {
     //   company: "MP Lokseva Kendra",
     //   position: "Computer Assistant",
@@ -24,13 +24,13 @@ const Experience = () => {
     //   description: "Assisted with technical operations and computer-related services, providing support for various digital initiatives.",
     //   skills: ["Technical Support", "Customer Service", "Office Software"]
     // },
-    {
-      company: "Eskills Web",
-      position: "Web Developer-intern",
-      period: "oct,2024– Present)",
-      description: "Collaborated with designers and clients to implement visually appealing and functional front-end solutions.",
-      skills: ["HTML/CSS", "JavaScript", "Responsive Design"]
-    }
+    // {
+    //   company: "Eskills Web",
+    //   position: "Web Developer-intern",
+    //   period: "oct,2024– Present)",
+    //   description: "Collaborated with designers and clients to implement visually appealing and functional front-end solutions.",
+    //   skills: ["HTML/CSS", "JavaScript", "Responsive Design"]
+    // }
   ];
 
   const educations = [
